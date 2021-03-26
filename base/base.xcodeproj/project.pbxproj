@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDA71ACF260E3095004E7492 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA71ACE260E3095004E7492 /* main.cpp */; };
+		CDA71AD7260E30DC004E7492 /* RomixBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA71AC1260E3032004E7492 /* RomixBase.cpp */; };
+		CDA71AD9260E30DC004E7492 /* RomixCpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA71AC4260E3032004E7492 /* RomixCpu.cpp */; };
+		CDA71AE0260E3FBD004E7492 /* RomixValidator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA71ADE260E3FBD004E7492 /* RomixValidator.cpp */; };
+		CDA71AE4260E4628004E7492 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDA71AE2260E4628004E7492 /* Utils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDA71ACA260E3095004E7492 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDA71AC1260E3032004E7492 /* RomixBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RomixBase.cpp; sourceTree = "<group>"; };
+		CDA71AC2260E3032004E7492 /* RomixBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RomixBase.hpp; sourceTree = "<group>"; };
+		CDA71AC3260E3032004E7492 /* RomixCpu.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RomixCpu.hpp; sourceTree = "<group>"; };
+		CDA71AC4260E3032004E7492 /* RomixCpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RomixCpu.cpp; sourceTree = "<group>"; };
+		CDA71ACC260E3095004E7492 /* validate_base */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = validate_base; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA71ACE260E3095004E7492 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CDA71ADE260E3FBD004E7492 /* RomixValidator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RomixValidator.cpp; sourceTree = "<group>"; };
+		CDA71ADF260E3FBD004E7492 /* RomixValidator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RomixValidator.hpp; sourceTree = "<group>"; };
+		CDA71AE2260E4628004E7492 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		CDA71AE3260E4628004E7492 /* Utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA71AC9260E3095004E7492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA71AA0260E2EF0004E7492 = {
+			isa = PBXGroup;
+			children = (
+				CDA71ABE260E2FF5004E7492 /* Sources */,
+				CDA71ACD260E3095004E7492 /* validate_base */,
+				CDA71AAA260E2EF0004E7492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA71AAA260E2EF0004E7492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA71ACC260E3095004E7492 /* validate_base */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA71ABE260E2FF5004E7492 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CDA71AC0260E3009004E7492 /* Analytics */,
+				CDA71ABF260E2FFF004E7492 /* Compute */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CDA71ABF260E2FFF004E7492 /* Compute */ = {
+			isa = PBXGroup;
+			children = (
+				CDA71AC1260E3032004E7492 /* RomixBase.cpp */,
+				CDA71AC2260E3032004E7492 /* RomixBase.hpp */,
+				CDA71AC4260E3032004E7492 /* RomixCpu.cpp */,
+				CDA71AC3260E3032004E7492 /* RomixCpu.hpp */,
+			);
+			path = Compute;
+			sourceTree = "<group>";
+		};
+		CDA71AC0260E3009004E7492 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				CDA71ADE260E3FBD004E7492 /* RomixValidator.cpp */,
+				CDA71ADF260E3FBD004E7492 /* RomixValidator.hpp */,
+				CDA71AE2260E4628004E7492 /* Utils.cpp */,
+				CDA71AE3260E4628004E7492 /* Utils.hpp */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		CDA71ACD260E3095004E7492 /* validate_base */ = {
+			isa = PBXGroup;
+			children = (
+				CDA71ACE260E3095004E7492 /* main.cpp */,
+			);
+			path = validate_base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA71ACB260E3095004E7492 /* validate_base */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA71AD0260E3095004E7492 /* Build configuration list for PBXNativeTarget "validate_base" */;
+			buildPhases = (
+				CDA71AC8260E3095004E7492 /* Sources */,
+				CDA71AC9260E3095004E7492 /* Frameworks */,
+				CDA71ACA260E3095004E7492 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = validate_base;
+			productName = validate_base;
+			productReference = CDA71ACC260E3095004E7492 /* validate_base */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA71AA1260E2EF0004E7492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CDA71ACB260E3095004E7492 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CDA71AA4260E2EF0004E7492 /* Build configuration list for PBXProject "base" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDA71AA0260E2EF0004E7492;
+			productRefGroup = CDA71AAA260E2EF0004E7492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA71ACB260E3095004E7492 /* validate_base */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA71AC8260E3095004E7492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA71AE0260E3FBD004E7492 /* RomixValidator.cpp in Sources */,
+				CDA71AD7260E30DC004E7492 /* RomixBase.cpp in Sources */,
+				CDA71AE4260E4628004E7492 /* Utils.cpp in Sources */,
+				CDA71AD9260E30DC004E7492 /* RomixCpu.cpp in Sources */,
+				CDA71ACF260E3095004E7492 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDA71AAE260E2EF0004E7492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDA71AAF260E2EF0004E7492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDA71AD1260E3095004E7492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VQ227449;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDA71AD2260E3095004E7492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57VQ227449;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA71AA4260E2EF0004E7492 /* Build configuration list for PBXProject "base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA71AAE260E2EF0004E7492 /* Debug */,
+				CDA71AAF260E2EF0004E7492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA71AD0260E3095004E7492 /* Build configuration list for PBXNativeTarget "validate_base" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA71AD1260E3095004E7492 /* Debug */,
+				CDA71AD2260E3095004E7492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA71AA1260E2EF0004E7492 /* Project object */;
+}
